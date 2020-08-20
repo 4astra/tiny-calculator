@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
 import * as serviceWorker from './serviceWorker';
+import TinyCalculator from './modules/TinyCalculator';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TinyCalculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
