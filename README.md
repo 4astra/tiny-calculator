@@ -12,7 +12,7 @@ Fetchs npm dependencies packages into node_modules of project
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If encounters error on Terminal console of macOS like that: Open on [http://x86_64-apple-darwin13.4.0:3000](http://x86_64-apple-darwin13.4.0:3000 ). You need run command `unset HOST` to fix before running `yarn start`.<br />
+If encounters message on Terminal like: You can now view tiny-calculator in the browser [http://x86_64-apple-darwin13.4.0:3000](http://x86_64-apple-darwin13.4.0:3000 ). And it doesn't automatically navigate to browser on port 3000, so you need run command `unset HOST` to fix before running `yarn start`.<br />
 
 ### `yarn test`
 
